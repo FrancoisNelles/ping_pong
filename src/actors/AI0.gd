@@ -1,12 +1,12 @@
 extends KinematicBody2D
 
-export (int) var speed = 250
+export (int) var speed = 200
 
-var velocity = Vector2(-speed, -speed)
 
+var velocity = Vector2(0, speed)
 
 func _ready():
-	pass # Replace with function body.
+	pass
 
 
 func _physics_process(delta):
